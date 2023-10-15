@@ -113,7 +113,74 @@ body{
     height: 300vh;
     margin-left: 10%;
     margin-right: 10%;
-    border: 2px solid black;
+    border: 0px solid black;
     overflow-x: hidden;
     
+}
+
+.spotlight{
+    margin-top: 15vh;
+    border: 0px solid white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spot_text{
+    width: 50%;
+    height: 70vh;
+    border: 0px dashed cyan;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.spot_text h2{
+    color: white;
+
+}
+
+.spot_text p{
+    color: white;
+}
+
+.spot_text button{
+    color: white;
+}
+
+.spot_img{
+    width: 50%;
+    height: auto;
+    border: 0px dashed cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover_spot{
+    width: 75%;
+    aspect-ratio: 1/1;
+    
+
+}
+
+.firstpage{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px dashed cyan;
+}
+
+.scrolldown{
+    display: grid;
+    text-align: center;
+}
+
+.scrolldown i{
+    color: white;
+    font-size: 30px;
 }
